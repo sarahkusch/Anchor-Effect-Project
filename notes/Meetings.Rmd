@@ -1,0 +1,30 @@
+---
+title: "Meetings"
+output: html_notebook
+---
+
+# 30.05.18
+
+* Vorbereitung auf Vortrag am 31.05.18
+    + Aufgabenverteilung (noch nicht 100% fest)
+        - Inga: Implementierung von Experiment in Website
+        - Sarah: R, Statistik
+        - Inga und Sarah: preregister report schreiben, paper schreiben
+    + Schedule machen
+        - Deadline: Anfang September
+        - erste Juni Woche: Experimentinhalt bestimmen (Fragen, Reihenfolge, Anchor), Hypothesen ueberlegen
+        - zweite bis vierte Juni Woche: Implementation von Experiment und Statistik in R
+        - erste Juli Woche: Piloting
+        - Ab 18.07(nach Klausurenphase): Auswertung von pilotierungs Daten, Verbessern von Experiment und R Analyse, Probanden rekrutieren
+        - erste August Woche: Experiment aktivieren und Daten sammeln
+        - wenn genug Daten: richtige Analyse machen
+        - ende August/Anfang September: Analyse aufschreiben, paper schreiben
+        
+# 04.06.18
+
+* agreed on 12 questions (see XXX file)
+* we have to still think about how to determine the anchors
+* we will randomize the order of the questions as well as the anchors (in total every participant will receive 6 high and 6 low anchors)
+* main hypothesis (confirmatory): If a low anchor is given the estimates will be significantly lower than the estimates following a high anchor (dependent variable: estimate, independent variable: low/high anchor resulting in two dependent groups)
+additional hypothesis(exploratory): participant who know about the anchor effect will be less influenced by the anchor than participants who don't know about it (dependent variable: influence of anchor(anchor index), independent variable: knowledge about anchor effect(yes, no) resulting in two independent groups)
+        
