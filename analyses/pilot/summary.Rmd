@@ -1,18 +1,14 @@
 ---
-title: "R Notebook"
+title: "Summary Analysis"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+#### Main Hypothesis:
 
-```{r}
-plot(cars)
-```
+Those who receive a low anchor make a significantly lower absolute estimate compared to those who receive a high anchor.
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+$$H_0: \mu_1 \ge \mu_2 \\H_1: \mu_1 \lt \mu_2 $$
+With $\mu_1$ being the the population mean of the estimates following a low anchor and $\mu_2$ being the population mean of the estimates following a high anchor. The dependent variable is the absolute estimate given (per person per anchor condition). The independent variable tells whether a low or high anchor was given. We will test this hypothesis by performing a t-test for repeated measures. In order to avarage across all questions to determine the participant's mean estimate for the low and high anchor condition respectively, we first have to z-transform all estimates per person across each question. This will yield two mean z-scores per person per anchor condition. To check whether the requirements of the paired t-test are fullfiled, we use the Lilliefors test to check for normality of the difference between the two mean z-scores of each participant. If the difference is normally distributed we will do the t-test for repeated samples since the groups (low vs. high anchor condition) are dependent. If the p-value of the t-test is below 0.05 we will reject the null hypothesis.
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+Before the actual testing we need to clean our data. We will check for outliers in reaction time and for impossible answers. In order to rule out that questions have been looked up during testing and those answer which are arguably not possible. 
