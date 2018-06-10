@@ -1,0 +1,57 @@
+---
+title: "Content Questionaire"
+author: "Inga"
+date: "4 Juni 2018"
+output: html_document
+---
+
+# Questions of the Questionaire
+
+- Length of the river 'Rhein' (in km)?
+    - Low anchor: 70
+    - High anchor: 1000
+    - Answer: 1200
+- Amount of meat eaten per year by average German (in kg)?
+    - Low anchor: 25
+    - High anchor: 500
+    - Answer: 60
+- Number United Nations members?
+    - Low anchor: 14
+    - High anchor: 127
+    - Answer: 193
+- Year telephone was invented?
+    - Low anchor: 1850 
+    - High anchor: 1920
+    - Answer: 1874
+- Number of babies per day in Germany? 
+    - Low anchor: 50
+    - High anchor: 20000
+    - Answer: 2000
+- Weight of a soccer ball (in gramm)?
+    - Low anchor: 250
+    - High anchor: 980
+    - Answer: 410-450
+- Number of keys on a piano?
+    - Low anchor: 40
+    - High anchor: 120
+    - Answer: 88
+- Number of active satelites in space?
+    - Low anchor: 35
+    - High anchor: 3200
+    - Answer: 1400
+- Speed of light (in km/s)?
+    - Low anchor: 25000
+    - High anchor: 800000
+    - Answer: 300000
+- Height of tallest redwood/Mammutbaum (in m)?
+    - Low anchor: 19
+    - Heigh anchor: 167
+    - Answer: 113
+- Mean temperature in Antarctica (in °C)?
+    - Low anchor: -17
+    - High anchor: -43
+    - Answer: -55
+- Year Leonardo da Vinci was born?
+    - Low anchor: 1391
+    - Heigh anchor: 1698
+    - Answer: 1452
