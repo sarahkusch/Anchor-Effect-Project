@@ -22,9 +22,20 @@ output: html_notebook
         
 # 04.06.18
 
-* agreed on 12 questions (see XXX file)
+* we agreed on 12 questions (see file: ContentQuestionnaire.Rmd)
 * we have to still think about how to determine the anchors
 * we will randomize the order of the questions as well as the anchors (in total every participant will receive 6 high and 6 low anchors)
 * main hypothesis (confirmatory): If a low anchor is given the estimates will be significantly lower than the estimates following a high anchor (dependent variable: estimate, independent variable: low/high anchor resulting in two dependent groups)
-additional hypothesis(exploratory): participant who know about the anchor effect will be less influenced by the anchor than participants who don't know about it (dependent variable: influence of anchor(anchor index), independent variable: knowledge about anchor effect(yes, no) resulting in two independent groups)
-        
+* additional hypothesis (exploratory): participant who know about the anchor effect will be less influenced by the anchor than participants who don't know about it (dependent variable: influence of anchor(anchor index), independent variable: knowledge about anchor effect(yes, no) resulting in two independent groups)
+
+
+# 14.06.18
+
+* meeting with tutor
+* decided for testing the additional hyothesis
+* we did not yet decide on the anchor or the amount of questions (between 8 and 12)
+    - maybe decide after piloting
+* we still have to decide whether we will ask the questions in English and German
+* we have to set a time limit per answer and check at the end whether some participants took longer than this limit 
+    - to exclude participants(or trials) who might have looked up the answer 
+

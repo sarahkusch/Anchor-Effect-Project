@@ -1,6 +1,7 @@
 library("tidyverse") 
 library("reshape2")
-install.packages("nortest")
+library("nortest")
+library("afex")
 
 # load piloting data into variable data
 
@@ -21,19 +22,7 @@ data$z10 <- scale(data$abs_qu_10)
 data$z11 <- scale(data$abs_qu_11)
 data$z12 <- scale(data$abs_qu_12)
 
-# setting absolute answer to null such that they aren't displayed anymore
-data$abs_qu_1 <- NULL
-data$abs_qu_2 <- NULL
-data$abs_qu_3 <- NULL
-data$abs_qu_4 <- NULL
-data$abs_qu_5 <- NULL
-data$abs_qu_6 <- NULL
-data$abs_qu_7 <- NULL
-data$abs_qu_8 <- NULL
-data$abs_qu_9 <- NULL
-data$abs_qu_10 <- NULL
-data$abs_qu_11 <- NULL
-data$abs_qu_12 <- NULL
+
 
 # save the z-scores in a new variable based on whether 
 # the anchor of the respective question has been low or high 
@@ -79,4 +68,10 @@ nortest::lillie.test(diff)
 
 # paired t-test based on difference between z- scores 
 # from the low vs high anchor condition
+# TODO: ist das wirklich einseitg?
 t.test(data$mean_zL,data$mean_zH,paired=TRUE)
+
+
+# has to be melted beforehand; response is z-sores; anchor is high/low; knowledge of anchor is yes/no, paricipant is VP, trial is 1-12 
+#mixed(response ~ anchor * knowldege_of_anchor + (1 | participant) + (1 | trial))
+

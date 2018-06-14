@@ -1,6 +1,7 @@
 library("tidyverse") 
 library("reshape2")
-install.packages("nortest")
+library("ggplot2")
+library("afex")
 
 # creating a fake data set
 columns <- c("comparative_qu_1","abs_qu_1","anchor1","comparative_qu_2","abs_qu_2","anchor2","comparative_qu_3","abs_qu_3","anchor3","comparative_qu_4","abs_qu_4","anchor4")
@@ -43,17 +44,42 @@ data <- data %>%
   mutate(mean_zL = mean(c(z1L, z2L, z3L, z4L), na.rm = TRUE),
          mean_zH = mean(c(z1H, z2H, z3H, z4H), na.rm = TRUE))
 
-# setting absolute answer to null such that they aren't displayed anymore
-data$abs_qu_1 <- NULL
-data$abs_qu_2 <- NULL
-data$abs_qu_3 <- NULL
-data$abs_qu_4 <- NULL
+# setting absolute answer to null such that they aren't displayed anymore, 
+#data$abs_qu_1 <- NULL
+#data$abs_qu_2 <- NULL
+#data$abs_qu_3 <- NULL
+#data$abs_qu_4 <- NULL
 
 # check for normality
 diff <- data$mean_zH - data$mean_zL
 shapiro.test(diff)
-nortest::lillie.test(diff)
 
 # paired t-test based on difference between z- scores 
 # from the low vs high anchor condition
 t.test(data$mean_zL,data$mean_zH,paired=TRUE)
+
+
+d <- melt(select(data, ) id="VP")
+#plotting
+#ggplot(d, aes(variable, value)) + geom_boxplot() + xlab("Anchor") + ylab("z-scores") + ggtitle("Title")
+
+
+# has to be melted beforehand; response is z-sores; anchor is high/low; knowledge of anchor is yes/no, paricipant is VP, trial is 1-12 
+mixed(response ~ anchor * knowldege_of_anchor + (1 | participant) + (1 | trial))
+
+
+
+# code for data_preprocessing.R
+# setting absolute answer to null such that they aren't displayed anymore
+#data$abs_qu_1 <- NULL
+#data$abs_qu_2 <- NULL
+#data$abs_qu_3 <- NULL
+#data$abs_qu_4 <- NULL
+#data$abs_qu_5 <- NULL
+#data$abs_qu_6 <- NULL
+#data$abs_qu_7 <- NULL
+#data$abs_qu_8 <- NULL
+#data$abs_qu_9 <- NULL
+#data$abs_qu_10 <- NULL
+#data$abs_qu_11 <- NULL
+#data$abs_qu_12 <- NULL
