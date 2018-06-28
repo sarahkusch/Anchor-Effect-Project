@@ -3,7 +3,7 @@ var intro = {
     // introduction title
     "title": "Welcome!",
     // introduction text
-    "text": "Thank you for participating in our study. In this study, you will see pictures and click on buttons.",
+    "text": "Thank you for participating in our study. In this study, we want to test your general knowledge about this and that.",
     // introduction's slide proceeding button text
     "buttonText": "Begin experiment",
     // render function renders the view
@@ -31,7 +31,7 @@ var instructions = {
     // instruction's title
     "title": "Instructions",
     // instruction's text
-    "text": "On each trial, you will see a question and two response options. Please select the response option you like most. We start with two practice trials.",
+    "text": "On each trial, first you will see a question and two response options for an estimation task. Afterwards you have to give an exact estimation for the task. Please try to answer the questons as fast as possible. We start with two practice trials.",
     // instuction's slide proceeding button text
     "buttonText": "Go to practice trial",
     render: function() {
@@ -58,7 +58,7 @@ var instructions = {
       "title": "Practice trial",
       // render function renders the view
       render: function (CT) {
-          if (exp.anchor[CT] == "high") {
+          if (exp.anchor_practice[CT] == "high") {
             var question_ending = exp.trial_info.practice_trials[CT].anchor_high
           }
           else {
@@ -83,11 +83,12 @@ var instructions = {
                   question: exp.trial_info.practice_trials[CT].anchor_question,
                   option1: exp.trial_info.practice_trials[CT].anchor_option1,
                   option2: exp.trial_info.practice_trials[CT].anchor_option2,
+                  anchor: exp.anchor_practice[CT],
                   typed_response: $('input[name=answer]:checked').val(),
                   RT: RT
               };
 
-              exp.trial_data.push(trial_data)
+              //exp.trial_data.push(trial_data)
               exp.findNextView();
           });
 
@@ -119,7 +120,7 @@ var instructions = {
                 typed_response: $('#answer').val(),
                 RT: RT
             };
-            exp.trial_data.push(trial_data)
+            //exp.trial_data.push(trial_data)
             exp.findNextView();
         });
 
@@ -149,46 +150,91 @@ var beginMainExp = {
     trials: 1
 };
 
-var main = {
-    name: 'main',
-    // render function renders the view
-    render : function(CT) {
+{
+  var main = {
+      name: 'main',
+      // render function renders the view
+      render : function(CT) {
+          if (exp.anchor[CT] == "high") {
+            var question_ending = exp.trial_info.main_trials[CT].anchor_high
+          }
+          else {
+            var question_ending = exp.trial_info.main_trials[CT].anchor_low
+          }
+          // fill variables in view-template
+          var viewTemplate = $('#main-view').html();
+          $('#main').html(Mustache.render(viewTemplate, {
+              question: exp.trial_info.main_trials[CT].anchor_question + question_ending,
+              option1:  exp.trial_info.main_trials[CT].anchor_option1,
+              option2:  exp.trial_info.main_trials[CT].anchor_option2,
+          }));
 
-        // fill variables in view-template
-        var viewTemplate = $('#main-view').html();
-        $('#main').html(Mustache.render(viewTemplate, {
-            question: exp.trial_info.main_trials[CT].question,
-            option1:  exp.trial_info.main_trials[CT].option1,
-            option2:  exp.trial_info.main_trials[CT].option2,
-            //picture:  exp.trial_info.main_trials[CT].picture
-        }));
+          // update the progress bar based on how many trials there are in this round
+          var filled = exp.currentTrialInViewCounter * (180 / exp.views_seq[exp.currentViewCounter].trials);
+          $('#filled').css('width', filled);
 
-        // update the progress bar based on how many trials there are in this round
-        var filled = exp.currentTrialInViewCounter * (180 / exp.views_seq[exp.currentViewCounter].trials);
-        $('#filled').css('width', filled);
+          // event listener for buttons; when an input is selected, the response
+          // and additional information are stored in exp.trial_info
+          $('input[name=answer]').on('change', function() {
+              RT = Date.now() - startingTime; // measure RT before anything else
+              trial_data = {
+                  //trial_type: "mainForcedChoice",
+                  trial_number: CT + 1,
+                  question: exp.trial_info.main_trials[CT].anchor_question + question_ending,
+                  //option1:  exp.trial_info.main_trials[CT].anchor_option1,
+                  //option2:  exp.trial_info.main_trials[CT].anchor_option2,
+                  //anchor: exp.anchor[CT],
+                  //option_chosen: $('#answer').val(),
+                  RT: RT
+              };
+              //exp.trial_data.push(trial_data);
+              exp.findNextView();
+          });
 
-        // event listener for buttons; when an input is selected, the response
-        // and additional information are stored in exp.trial_info
-        $('input[name=answer]').on('change', function() {
-            RT = Date.now() - startingTime; // measure RT before anything else
-            trial_data = {
-                trial_type: "mainForcedChoice",
-                trial_number: CT + 1,
+          // record trial starting time
+          startingTime = Date.now();
+
+      },
+    }
+
+    var main2 = {
+        name: 'main',
+        // render function renders the view
+        render : function(CT) {
+
+            // fill variables in view-template
+            var viewTemplate = $('#main-view-2').html();
+            $('#main').html(Mustache.render(viewTemplate, {
                 question: exp.trial_info.main_trials[CT].question,
-                option1:  exp.trial_info.main_trials[CT].option1,
-                option2:  exp.trial_info.main_trials[CT].option2,
-                option_chosen: $('#answer').val(),
-                RT: RT
-            };
-            exp.trial_data.push(trial_data);
-            exp.findNextView();
-        });
+            }));
 
-        // record trial starting time
-        startingTime = Date.now();
+            // update the progress bar based on how many trials there are in this round
+            var filled = exp.currentTrialInViewCounter * (180 / exp.views_seq[exp.currentViewCounter].trials);
+            $('#filled').css('width', filled);
 
-    },
-	trials : 6
+            // event listener for buttons; when an input is selected, the response
+            // and additional information are stored in exp.trial_info
+            $('#next').on('click', function() {
+                RT = Date.now() - startingTime; // measure RT before anything else
+                trial_data = {
+                    //trial_type: "mainForcedChoice",
+                    trial_number: CT + 1,
+                    anchor: exp.anchor[CT],
+                    question: exp.trial_info.main_trials[CT].question_id,
+                    //question: exp.trial_info.main_trials[CT].question,
+                    answer: $('#answer').val(),
+                    RT: RT
+                };
+                exp.trial_data.push(trial_data);
+                exp.findNextView();
+            });
+
+            // record trial starting time
+            startingTime = Date.now();
+
+        },
+    };
+  trials : 1
 };
 
 var postTest = {
@@ -214,7 +260,7 @@ var postTest = {
             exp.global_data.age = $('#age').val();
             exp.global_data.gender = $('#gender').val();
             exp.global_data.education = $('#education').val();
-            exp.global_data.anchor = $('#anchor').val();
+            exp.global_data.anchor = $('#anchor-knowledge').val();
             exp.global_data.languages = $('#languages').val();
             exp.global_data.comments = $('#comments').val().trim();
             exp.global_data.endTime = Date.now();
@@ -230,7 +276,7 @@ var postTest = {
 
 var thanks = {
     name: 'thanks',
-    "message": "Thank you for taking part in this experiment!",
+    "message": "That was quick! You scored 13920 points. Thank you for taking part in this experiment!",
     render: function() {
 
         viewTemplate = $('#thanks-view').html();

@@ -11,7 +11,8 @@ exp.customize = function() {
                      loop([practice,
                      practice2], 2),
                      beginMainExp,
-                     main,
+                     loop([main,
+                     main2], 6),
                      /*loop([practice,
                      beginMainExp,
                      main], 2),*/
@@ -23,6 +24,7 @@ exp.customize = function() {
     this.trial_info.main_trials = _.shuffle(main_trials);
     this.trial_info.practice_trials = _.shuffle(practice_trials);
 
+    exp.anchor_practice =_.shuffle(["high", "low"]);
     exp.anchor =_.shuffle(["high", "high", "high", "low", "low", "low"]);
 
     // adds progress bars to the views listed

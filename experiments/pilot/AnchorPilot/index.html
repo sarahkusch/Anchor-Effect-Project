@@ -87,7 +87,7 @@
 		</view>
 		</script>
 
-		<!-- Practice trial view -->
+		<!-- Practice trial view (button response)-->
 		<script id="practice-view" type="x-tmpl-mustache">
 		<div class="view">
 			{{# title }}
@@ -110,7 +110,7 @@
 		</div>
 		</script>
 
-<!-- Tried to connect question type 1 and type 2-->
+<!-- Practice trial view 2 (typed response)-->
 		<script id="practice-view-2" type="x-tmpl-mustache">
 		<div class="view">
 			{{# title }}
@@ -126,7 +126,7 @@
 
 			<p class="answer-container"><p>
 				<label for="answer" name="answer">Answer:</label>
-				<input type="text" id="answer"/>	
+				<input type="number" id="answer"/>
 				{{# buttonText }}
 				<button id="next">{{ buttonText }}</button>
 				{{/ buttonText }}
@@ -172,6 +172,32 @@
 		</div>
 		</script>
 
+		<!-- main view 2 (typed response) -->
+		<script id="main-view-2" type="x-tmpl-mustache">
+		<div class="view">
+		</div>
+
+		<p class="question">
+		{{# question }}
+		{{ question }}
+		{{/ question }}
+		</p>
+
+		<p class="answer-container"><p>
+			<label for="answer" name="answer">Answer:</label>
+			<input type="number" id="answer"/>
+			{{# buttonText }}
+			<button id="next">{{ buttonText }}</button>
+			{{/ buttonText }}
+			{{^ buttonText }}
+			<button id="next">Next</button>
+			{{/ buttonText }}
+		</p>
+		</p>
+
+		</div>
+		</script>
+
 		<!-- post test view -->
 		<script id="post-test-view" type="x-tmpl-mustache">
 		<div class="view post-test-templ">
@@ -208,8 +234,8 @@
 					</select>
 				</p>
 				<p>
-					<label for="anchor">Anchor-Effect: <br /><span>(Have you ever heard of the Anchor-Effect?)</</span></label>
-					<select id="anchor" name="anchor">
+					<label for="anchor-knowledge">Anchor-Effect: <br /><span>(Have you ever heard of the Anchor-Effect?)</</span></label>
+					<select id="anchor-knowledge" name="anchor-knowledge">
 						<option></option>
 						<option value="yes">yes</option>
 						<option value="no">no</option>
