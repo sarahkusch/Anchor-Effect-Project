@@ -8,7 +8,8 @@ exp.customize = function() {
     // specify view order
     this.views_seq = [intro,
                      instructions,
-                     practice,
+                     loop([practice,
+                     practice2], 2),
                      beginMainExp,
                      main,
                      /*loop([practice,
@@ -21,6 +22,8 @@ exp.customize = function() {
     // randomize main trial order, but keep practice trial order fixed
     this.trial_info.main_trials = _.shuffle(main_trials);
     this.trial_info.practice_trials = _.shuffle(practice_trials);
+
+    exp.anchor =_.shuffle(["high", "high", "high", "low", "low", "low"]);
 
     // adds progress bars to the views listed
     // view's name is the same as object's name

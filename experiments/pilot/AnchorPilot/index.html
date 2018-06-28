@@ -110,7 +110,7 @@
 		</div>
 		</script>
 
-<!-- Tried to connect question type 1 and type 2
+<!-- Tried to connect question type 1 and type 2-->
 		<script id="practice-view-2" type="x-tmpl-mustache">
 		<div class="view">
 			{{# title }}
@@ -124,15 +124,19 @@
 			{{/ question }}
 			</p>
 
-			<p class="answer-container">
-				<label for="yes" class="button-answer">{{option1}}</label>
-				<input type="radio" name="answer" id="yes" value={{option1}} />
-				<input type="radio" name="answer" id="no" value={{option2}} />
-				<label for="no" class="button-answer">{{option2}}</label>
+			<p class="answer-container"><p>
+				<label for="answer" name="answer">Answer:</label>
+				<input type="text" id="answer"/>	
+				{{# buttonText }}
+				<button id="next">{{ buttonText }}</button>
+				{{/ buttonText }}
+				{{^ buttonText }}
+				<button id="next">Next</button>
+				{{/ buttonText }}
+			</p>
 			</p>
 		</div>
 		</script>
--->
 
 		<!-- Begin Experiment view -->
 		<script id="begin-exp-view" type="x-tmpl-mustache">

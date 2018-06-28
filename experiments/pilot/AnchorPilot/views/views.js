@@ -52,13 +52,52 @@ var instructions = {
     trials: 1
 };
 
-var practice = {
-    name: 'practice',
-    "title": "Practice trial",
-    // render function renders the view
-    render: function (CT) {
+{
+  var practice = {
+      name: 'practice',
+      "title": "Practice trial",
+      // render function renders the view
+      render: function (CT) {
+          if (exp.anchor[CT] == "high") {
+            var question_ending = exp.trial_info.practice_trials[CT].anchor_high
+          }
+          else {
+            var question_ending = exp.trial_info.practice_trials[CT].anchor_low
+          }
+          viewTemplate = $("#practice-view").html();
+          $('#main').html(Mustache.render(viewTemplate, {
+          title: this.title,
+          question: exp.trial_info.practice_trials[CT].anchor_question + question_ending,
+          option1: exp.trial_info.practice_trials[CT].anchor_option1,
+          option2: exp.trial_info.practice_trials[CT].anchor_option2,
+          }));
+          startingTime = Date.now();
+          // attaches an event listener to the yes / no radio inputs
+          // when an input is selected a response property with a value equal to the answer is added to the trial object
+          // as well as a readingTimes property with value - a list containing the reading times of each word
+          $('input[name=answer]').on('change', function() {
+              RT = Date.now() - startingTime; // measure RT before anything else
+              trial_data = {
+                  trial_type: "practice",
+                  trial_number: CT+1,
+                  question: exp.trial_info.practice_trials[CT].anchor_question,
+                  option1: exp.trial_info.practice_trials[CT].anchor_option1,
+                  option2: exp.trial_info.practice_trials[CT].anchor_option2,
+                  typed_response: $('input[name=answer]:checked').val(),
+                  RT: RT
+              };
 
-        viewTemplate = $("#practice-view").html();
+              exp.trial_data.push(trial_data)
+              exp.findNextView();
+          });
+
+      },
+  }
+
+  var practice2 = {
+      render: function(CT) {
+
+        viewTemplate = $("#practice-view-2").html();
         $('#main').html(Mustache.render(viewTemplate, {
         title: this.title,
         question: exp.trial_info.practice_trials[CT].question,
@@ -69,7 +108,7 @@ var practice = {
         // attaches an event listener to the yes / no radio inputs
         // when an input is selected a response property with a value equal to the answer is added to the trial object
         // as well as a readingTimes property with value - a list containing the reading times of each word
-        $('input[name=answer]').on('change', function() {
+        $('#next').on('click', function() {
             RT = Date.now() - startingTime; // measure RT before anything else
             trial_data = {
                 trial_type: "practice",
@@ -77,46 +116,17 @@ var practice = {
                 question: exp.trial_info.practice_trials[CT].question,
                 option1: exp.trial_info.practice_trials[CT].option1,
                 option2: exp.trial_info.practice_trials[CT].option2,
-                option_chosen: $('input[name=answer]:checked').val(),
+                typed_response: $('#answer').val(),
                 RT: RT
             };
             exp.trial_data.push(trial_data)
             exp.findNextView();
         });
 
-    },
+      },
 
-/*  Tried to connect question type 1 and type 2
-    render: function(CT) {
-
-      viewTemplate = $("#practice-view-2").html();
-      $('#main').html(Mustache.render(viewTemplate, {
-      title: this.title,
-      question: exp.trial_info.practice_trials_2[CT].question,
-      option1: exp.trial_info.practice_trials_2[CT].option1,
-      option2: exp.trial_info.practice_trials_2[CT].option2,
-      }));
-      startingTime = Date.now();
-      // attaches an event listener to the yes / no radio inputs
-      // when an input is selected a response property with a value equal to the answer is added to the trial object
-      // as well as a readingTimes property with value - a list containing the reading times of each word
-      $('input[name=answer]').on('change', function() {
-          RT = Date.now() - startingTime; // measure RT before anything else
-          trial_data = {
-              trial_type: "practice",
-              trial_number: CT+1,
-              question: exp.trial_info.practice_trials_2[CT].question,
-              option1: exp.trial_info.practice_trials_2[CT].option1,
-              option2: exp.trial_info.practice_trials_2[CT].option2,
-              option_chosen: $('input[name=answer]:checked').val(),
-              RT: RT
-          };
-          exp.trial_data.push(trial_data)
-          exp.findNextView();
-      });
-
-    },*/
-    trials: 2
+  }
+trials: 1
 };
 
 var beginMainExp = {
@@ -167,7 +177,7 @@ var main = {
                 question: exp.trial_info.main_trials[CT].question,
                 option1:  exp.trial_info.main_trials[CT].option1,
                 option2:  exp.trial_info.main_trials[CT].option2,
-                option_chosen: $('input[name=answer]:checked').val(),
+                option_chosen: $('#answer').val(),
                 RT: RT
             };
             exp.trial_data.push(trial_data);
