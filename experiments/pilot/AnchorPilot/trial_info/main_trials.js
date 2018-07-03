@@ -11,7 +11,7 @@ var main_trials = [
 	 anchor_option2: "lower",
 	 anchor_high: "500kg?",
 	 anchor_low: "25kg?",
- 	 question: "Estimate the exact amount of meat eaten per day by an average German in kg:",
+ 	 question: "Estimate the exact amount of meat eaten per year by an average German in kg:",
  	 question_id: "2"},
   {anchor_question: "Is the number of members of the United Nations higher or lower than ",
    anchor_option1: "higher",
