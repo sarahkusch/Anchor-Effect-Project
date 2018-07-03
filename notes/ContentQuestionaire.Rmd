@@ -1,11 +1,11 @@
 ---
-title: "Content Questionaire"
+title: "Content Questionnaire"
 author: "Inga"
 date: "4 Juni 2018"
 output: html_document
 ---
 
-# Questions of the Questionaire
+# Questions Questionnaire
 
 - Length of the river 'Rhein' (in km)?
     - Low anchor: 70
@@ -47,7 +47,7 @@ output: html_document
     - Low anchor: 19
     - Heigh anchor: 167
     - Answer: 113
-- Mean temperature in Antarctica (in °C)?
+- Mean temperature in Antarctica (in Â°C)?
     - Low anchor: -17
     - High anchor: -43
     - Answer: -55
