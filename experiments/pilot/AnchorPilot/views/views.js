@@ -155,7 +155,7 @@ var beginMainExp = {
       name: 'main',
       // render function renders the view
       render : function(CT) {
-          if (exp.anchor[CT] == "high") {
+          if (exp.anchor_main[CT] == "high") {
             var question_ending = exp.trial_info.main_trials[CT].anchor_high
           }
           else {
@@ -219,7 +219,7 @@ var beginMainExp = {
                 trial_data = {
                     //trial_type: "mainForcedChoice",
                     trial_number: CT + 1,
-                    anchor: exp.anchor[CT],
+                    anchor: exp.anchor_main[CT],
                     question: exp.trial_info.main_trials[CT].question_id,
                     //question: exp.trial_info.main_trials[CT].question,
                     answer: $('#answer').val(),
@@ -260,7 +260,7 @@ var postTest = {
             exp.global_data.age = $('#age').val();
             exp.global_data.gender = $('#gender').val();
             exp.global_data.education = $('#education').val();
-            exp.global_data.anchor = $('#anchor-knowledge').val();
+            exp.global_data.anchor_knowledge = $('#anchor-knowledge').val();
             exp.global_data.languages = $('#languages').val();
             exp.global_data.comments = $('#comments').val().trim();
             exp.global_data.endTime = Date.now();
