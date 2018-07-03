@@ -3,7 +3,7 @@ var intro = {
     // introduction title
     "title": "Welcome!",
     // introduction text
-    "text": "Thank you for participating in our study. In this study, we want to test your general knowledge about this and that.",
+    "text": "Thank you for participating in our study. In this study, we are going to ask you some general knowledge questions.",
     // introduction's slide proceeding button text
     "buttonText": "Begin experiment",
     // render function renders the view
@@ -31,7 +31,7 @@ var instructions = {
     // instruction's title
     "title": "Instructions",
     // instruction's text
-    "text": "On each trial, first you will see a question and two response options for an estimation task. Afterwards you have to give an exact estimation for the task. Please try to answer the questons as fast as possible. We start with two practice trials.",
+    "text": "On each trial, first you will see a question and two response options. Keep in mind that the numbers in the questions are randomly selected. Afterwards you have to give an exact estimation. Please answer the questions without looking them up anywhere. We are going to start with two practice trials.",
     // instuction's slide proceeding button text
     "buttonText": "Go to practice trial",
     render: function() {
@@ -170,8 +170,8 @@ var beginMainExp = {
           }));
 
           // update the progress bar based on how many trials there are in this round
-          var filled = exp.currentTrialInViewCounter * (180 / exp.views_seq[exp.currentViewCounter].trials);
-          $('#filled').css('width', filled);
+          //var filled = exp.currentTrialInViewCounter * (180 / exp.views_seq[exp.currentViewCounter].trials);
+          //$('#filled').css('width', filled);
 
           // event listener for buttons; when an input is selected, the response
           // and additional information are stored in exp.trial_info
@@ -209,8 +209,8 @@ var beginMainExp = {
             }));
 
             // update the progress bar based on how many trials there are in this round
-            var filled = exp.currentTrialInViewCounter * (180 / exp.views_seq[exp.currentViewCounter].trials);
-            $('#filled').css('width', filled);
+            //var filled = exp.currentTrialInViewCounter * (180 / exp.views_seq[exp.currentViewCounter].trials);
+            //$('#filled').css('width', filled);
 
             // event listener for buttons; when an input is selected, the response
             // and additional information are stored in exp.trial_info

@@ -4,7 +4,7 @@ var practice_trials = [
 	 anchor_low: "1000km?",
 	 anchor_option1: "higher",
 	 anchor_option2: "lower",
-	 question: "Estimate the exact distance between Hamburg and Munich:"},
+	 question: "Estimate the exact distance between Hamburg and Munich in km:"},
 	{anchor_question: "Did Karl Marx die before or after ",
 	 anchor_high: "1920?",
 	 anchor_low: "1805?",

@@ -30,8 +30,8 @@ exp.init = function(){
 	// flatten views_seq after possible 'loop' insertions
 	this.views_seq = _.flatten(this.views_seq);
 	// create Progress Bar/s
-	this.progress = this.initProgressBar();
-	this.progress.add();
+	//this.progress = this.initProgressBar();
+	//this.progress.add();
 
 	// insert a Current Trial counter for each view
 	_.map(this.views_seq, function(i) {i.CT = 0});

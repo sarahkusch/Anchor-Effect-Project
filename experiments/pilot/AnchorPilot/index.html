@@ -211,6 +211,14 @@
 			{{/ text }}
 			<form>
 				<p>
+					<label for="anchor-knowledge">Anchor-Effect: <br /><span>(Have you ever heard of the Anchor-Effect?)</</span></label>
+					<select id="anchor-knowledge" name="anchor-knowledge">
+						<option></option>
+						<option value="yes">yes</option>
+						<option value="no">no</option>
+					</select>
+				</p>
+				<p>
 					<label for="age">Age:</label>
 					<input type="number" name="age" min="18" max="110" id="age" />
 				</p>
@@ -231,14 +239,6 @@
 						<option value="graduated_high_school">Graduated High School</option>
 						<option value="graduated_college">Graduated College</option>
 						<option value="higher_degree">Higher Degree</option>
-					</select>
-				</p>
-				<p>
-					<label for="anchor-knowledge">Anchor-Effect: <br /><span>(Have you ever heard of the Anchor-Effect?)</</span></label>
-					<select id="anchor-knowledge" name="anchor-knowledge">
-						<option></option>
-						<option value="yes">yes</option>
-						<option value="no">no</option>
 					</select>
 				</p>
 				<p>
