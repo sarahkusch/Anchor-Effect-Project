@@ -1,0 +1,73 @@
+submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,experiment_id,gender,languages,question,startDate,startTime,timeSpent,trial_number
+20,5385,18,high,no,66,,graduated_high_school,1530687861732,5,male,english,11,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,1
+20,3903,18,low,no,1844,,graduated_high_school,1530687861732,5,male,english,4,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,2
+20,3677,18,high,no,1587,,graduated_high_school,1530687861732,5,male,english,12,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,3
+20,3189,18,low,no,520,,graduated_high_school,1530687861732,5,male,english,8,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,4
+20,4389,18,high,no,652,,graduated_high_school,1530687861732,5,male,english,6,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,5
+20,3577,18,high,no,159,,graduated_high_school,1530687861732,5,male,english,10,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,6
+20,3173,18,low,no,78,,graduated_high_school,1530687861732,5,male,english,3,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,7
+20,3398,18,high,no,33,,graduated_high_school,1530687861732,5,male,english,2,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,8
+20,6428,18,low,no,59,,graduated_high_school,1530687861732,5,male,english,7,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,9
+20,7105,18,low,no,29000,,graduated_high_school,1530687861732,5,male,english,9,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,10
+20,3295,18,low,no,542,,graduated_high_school,1530687861732,5,male,english,1,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,11
+20,9665,18,high,no,15000,,graduated_high_school,1530687861732,5,male,english,5,Wed Jul 04 2018 09:02:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530687745494,1.9373,12
+15,5649,18,high,yes,130,So much fun!,graduated_high_school,1530634631827,5,female,German,10,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,1
+15,3698,18,low,yes,1450,So much fun!,graduated_high_school,1530634631827,5,female,German,12,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,2
+15,3850,18,high,yes,700,So much fun!,graduated_high_school,1530634631827,5,female,German,6,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,3
+15,5399,18,high,yes,200,So much fun!,graduated_high_school,1530634631827,5,female,German,2,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,4
+15,6950,18,low,yes,6020,So much fun!,graduated_high_school,1530634631827,5,female,German,9,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,5
+15,3971,18,high,yes,1200,So much fun!,graduated_high_school,1530634631827,5,female,German,5,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,6
+15,3726,18,high,yes,1900,So much fun!,graduated_high_school,1530634631827,5,female,German,4,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,7
+15,3238,18,low,yes,50,So much fun!,graduated_high_school,1530634631827,5,female,German,3,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,8
+15,3192,18,high,yes,700,So much fun!,graduated_high_school,1530634631827,5,female,German,1,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,9
+15,5132,18,low,yes,600,So much fun!,graduated_high_school,1530634631827,5,female,German,8,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,10
+15,3539,18,low,yes,70,So much fun!,graduated_high_school,1530634631827,5,female,German,11,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,11
+15,3207,18,low,yes,80,So much fun!,graduated_high_school,1530634631827,5,female,German,7,Tue Jul 03 2018 18:14:32 GMT+0200,1530634472840,2.649783333333333,12
+16,3926,18,low,no,3000,Thank you,higher_degree,1530634772011,5,male,German,9,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,1
+16,4488,18,low,no,80,Thank you,higher_degree,1530634772011,5,male,German,7,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,2
+16,2958,18,high,no,150,Thank you,higher_degree,1530634772011,5,male,German,10,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,3
+16,3625,18,high,no,1000,Thank you,higher_degree,1530634772011,5,male,German,1,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,4
+16,3013,18,high,no,50,Thank you,higher_degree,1530634772011,5,male,German,2,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,5
+16,3789,18,high,no,120,Thank you,higher_degree,1530634772011,5,male,German,3,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,6
+16,3693,18,low,no,250,Thank you,higher_degree,1530634772011,5,male,German,5,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,7
+16,3642,18,low,no,1280,Thank you,higher_degree,1530634772011,5,male,German,12,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,8
+16,4793,18,low,no,654,Thank you,higher_degree,1530634772011,5,male,German,6,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,9
+16,3589,18,low,no,60,Thank you,higher_degree,1530634772011,5,male,German,11,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,10
+16,3566,18,high,no,4500,Thank you,higher_degree,1530634772011,5,male,German,8,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,11
+16,4357,18,high,no,1870,Thank you,higher_degree,1530634772011,5,male,German,4,Tue Jul 03 2018 18:17:23 GMT+0200,1530634643940,2.134516666666667,12
+17,4414,67,high,no,1490,,graduated_high_school,1530634903076,5,other,German,12,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,1
+17,8954,67,low,no,67800,,graduated_high_school,1530634903076,5,other,German,9,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,2
+17,3901,67,high,no,63,,graduated_high_school,1530634903076,5,other,German,2,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,3
+17,5099,67,high,no,1862,,graduated_high_school,1530634903076,5,other,German,4,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,4
+17,2906,67,high,no,50,,graduated_high_school,1530634903076,5,other,German,3,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,5
+17,3975,67,low,no,80,,graduated_high_school,1530634903076,5,other,German,10,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,6
+17,3526,67,high,no,900,,graduated_high_school,1530634903076,5,other,German,8,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,7
+17,3240,67,low,no,870,,graduated_high_school,1530634903076,5,other,German,1,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,8
+17,4042,67,low,no,650,,graduated_high_school,1530634903076,5,other,German,6,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,9
+17,2352,67,high,no,90,,graduated_high_school,1530634903076,5,other,German,11,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,10
+17,2466,67,low,no,60,,graduated_high_school,1530634903076,5,other,German,7,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,11
+17,3147,67,low,no,8000,,graduated_high_school,1530634903076,5,other,German,5,Tue Jul 03 2018 18:19:36 GMT+0200,1530634776214,2.1143666666666667,12
+18,4644,23,low,yes,2600,,graduated_high_school,1530687558927,5,female,german,5,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,1
+18,7995,23,high,yes,1889,,graduated_high_school,1530687558927,5,female,german,4,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,2
+18,4939,23,low,yes,1600,,graduated_high_school,1530687558927,5,female,german,8,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,3
+18,6542,23,high,yes,126,,graduated_high_school,1530687558927,5,female,german,10,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,4
+18,3513,23,low,yes,112,,graduated_high_school,1530687558927,5,female,german,3,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,5
+18,4053,23,high,yes,1658,,graduated_high_school,1530687558927,5,female,german,12,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,6
+18,2870,23,high,yes,88,,graduated_high_school,1530687558927,5,female,german,7,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,7
+18,5608,23,low,yes,863,,graduated_high_school,1530687558927,5,female,german,1,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,8
+18,6608,23,low,yes,420,,graduated_high_school,1530687558927,5,female,german,6,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,9
+18,4184,23,high,yes,62,,graduated_high_school,1530687558927,5,female,german,2,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,10
+18,4950,23,low,yes,270000,,graduated_high_school,1530687558927,5,female,german,9,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,11
+18,3325,23,high,yes,78,,graduated_high_school,1530687558927,5,female,german,11,Wed Jul 04 2018 08:56:30 GMT+0200 (Mitteleuropäische Sommerzeit),1530687390037,2.8148333333333335,12
+19,3635,23,high,yes,88,,graduated_high_school,1530687740480,5,female,german,7,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,1
+19,7574,23,high,yes,1905,,graduated_high_school,1530687740480,5,female,german,4,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,2
+19,4285,23,low,yes,1596,,graduated_high_school,1530687740480,5,female,german,12,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,3
+19,4816,23,low,yes,77,,graduated_high_school,1530687740480,5,female,german,11,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,4
+19,6496,23,high,yes,1356,,graduated_high_school,1530687740480,5,female,german,8,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,5
+19,7009,23,low,yes,2540,,graduated_high_school,1530687740480,5,female,german,5,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,6
+19,6076,23,low,yes,975,,graduated_high_school,1530687740480,5,female,german,1,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,7
+19,4635,23,high,yes,126,,graduated_high_school,1530687740480,5,female,german,10,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,8
+19,5054,23,high,yes,300000,,graduated_high_school,1530687740480,5,female,german,9,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,9
+19,5130,23,low,yes,450,,graduated_high_school,1530687740480,5,female,german,6,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,10
+19,3323,23,low,yes,114,,graduated_high_school,1530687740480,5,female,german,3,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,11
+19,31378,23,high,yes,54,,graduated_high_school,1530687740480,5,female,german,2,Wed Jul 04 2018 08:59:23 GMT+0200 (Mitteleuropäische Sommerzeit),1530687563966,2.9419,12

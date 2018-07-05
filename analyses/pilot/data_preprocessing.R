@@ -1,11 +1,11 @@
 library("tidyverse") 
 library("reshape2")
-library("nortest")
 library("afex")
+library("lme4")
+library("plyr")
+# load piloting data into variable data (incl. VP, knowledge, anchor per question per person, absolute estimate per question per person)
 
-# load piloting data into variable data
-
-# data <- data.frame(VP,abs_qu_1, anchor1, abs_qu_2, anchor2, abs_qu_3, anchor3, abs_qu_4, anchor4)
+# data <- data.frame(VP,abs_qu_1, anchor1, abs_qu_2, anchor2, abs_qu_3, anchor3, abs_qu_4, anchor4,..., knowledge)
 
 
 # z transform all answer based on the questions' mean
@@ -64,14 +64,25 @@ data <- data %>%
 # check for normality
 diff <- data$mean_zH - data$mean_zL
 shapiro.test(diff)
-nortest::lillie.test(diff)
 
 # paired t-test based on difference between z- scores 
 # from the low vs high anchor condition
-# TODO: ist das wirklich einseitg?
-t.test(data$mean_zL,data$mean_zH,paired=TRUE)
+t.test(data$mean_zL,data$mean_zH, alternative = "less", paired=TRUE)
 
 
-# has to be melted beforehand; response is z-sores; anchor is high/low; knowledge of anchor is yes/no, paricipant is VP, trial is 1-12 
-#mixed(response ~ anchor * knowldege_of_anchor + (1 | participant) + (1 | trial))
+####################second hypothesis####################
+
+#TODO: rename variables, comments#
+data2 <- select(data,VP, anchor1, anchor2, anchor3, anchor4, anchor5, anchor6, anchor7, anchor8, anchor9, anchor10, anchor11, anchor12, knowledge, z1, z2, z3, z4, z5, z6, z7, z8, z9, z10, z11, z12)
+
+
+data_test <- melt(data2, id=c("VP","knowledge"), variable.name = "trial")
+
+data_test2 <- data_test[which(data_test$variable == "z1")[1]:nrow(data_test), ]$anchor
+
+data_final <- cbind(data_test[1:(which(data_test$trial == "z1")[1]-1),],data_test2)
+data_final$variable <- NULL
+data_final <- rename(data_final,c("data_test2" = "z score", "value" = "anchor"))
+
+afex::mixed(data_final$response ~ data_final$anchor * data_final$knowledge + (1 | data_final$VP) + (1 | data_final$trial), data=data_final)
 

@@ -1,0 +1,21 @@
+submission_id,RT,age,anchor,comments,education,endTime,experiment_id,gender,languages,option1,option2,option_chosen,question,startDate,startTime,timeSpent,trial_number,trial_type,typed_response
+3,1005,,,,,1530176671970,2,,,higher,lower,NA,Is the distance between Hamburg and Munich higher or lower than ,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,1,practice,higher
+3,4117,,,,,1530176671970,2,,,10km,1000km,NA,Estimate the exact distance between Hamburg and Munich:,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,1,practice,555
+3,1362,,,,,1530176671970,2,,,before,after,NA,Did Karl Marx die before or after ,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,2,practice,after
+3,4780,,,,,1530176671970,2,,,1300,1900,NA,Estimate the exact year Karl Marx died in:,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,2,practice,64464
+3,1459,,,,,1530176671970,2,,,,,,,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,1,mainForcedChoice,NA
+3,561,,,,,1530176671970,2,,,,,,,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,2,mainForcedChoice,NA
+3,1384,,,,,1530176671970,2,,,,,,,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,3,mainForcedChoice,NA
+3,4556,,,,,1530176671970,2,,,,,,Estimate the exact number of members of the United Nations:,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,4,mainForcedChoice,NA
+3,3653,,,,,1530176671970,2,,,,,,Estimate the exact amount of meat eaten per day by an average German:,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,5,mainForcedChoice,NA
+3,1205,,,,,1530176671970,2,,,,,,Estimate the exact length of the river 'Rhein':,Thu Jun 28 2018 11:03:59 GMT+0200 (Mitteleuropäische Sommerzeit),1530176639585,0.53975,6,mainForcedChoice,NA
+4,1261,,,,,1530177351793,2,,,higher,lower,NA,Is the distance between Hamburg and Munich higher or lower than ,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,1,practice,higher
+4,3964,,,,,1530177351793,2,,,10km,1000km,NA,Estimate the exact distance between Hamburg and Munich:,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,1,practice,32213
+4,1007,,,,,1530177351793,2,,,before,after,NA,Did Karl Marx die before or after ,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,2,practice,before
+4,3932,,,,,1530177351793,2,,,1300,1900,NA,Estimate the exact year Karl Marx died in:,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,2,practice,
+4,1508,,,,,1530177351793,2,,,,,,Estimate the exact length of the river 'Rhein':,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,1,mainForcedChoice,NA
+4,1046,,,,,1530177351793,2,,,,,,,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,2,mainForcedChoice,NA
+4,1401,,,,,1530177351793,2,,,,,,,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,3,mainForcedChoice,NA
+4,711,,,,,1530177351793,2,,,,,,,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,4,mainForcedChoice,NA
+4,1510,,,,,1530177351793,2,,,,,,Estimate the exact amount of meat eaten per day by an average German:,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,5,mainForcedChoice,NA
+4,1254,,,,,1530177351793,2,,,,,,Estimate the exact number of members of the United Nations:,Thu Jun 28 2018 11:15:25 GMT+0200 (Mitteleuropäische Sommerzeit),1530177325702,0.43485,6,mainForcedChoice,NA
