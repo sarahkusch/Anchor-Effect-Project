@@ -38,4 +38,13 @@ output: html_notebook
 * we still have to decide whether we will ask the questions in English and German
 * we have to set a time limit per answer and check at the end whether some participants took longer than this limit 
     - to exclude participants(or trials) who might have looked up the answer 
+    
+# 18.07.18
+* beginning of August (until 5.8): finish preregistration report, send to Michael Franke
+    - (preliminary) Title: Replication of the anchor effect
+    - Inga: 25, 14-17, 7-10, 5.1.1, 3
+    - Sarah: 18-24,11-13, 4
+* end of August: collect data
+* beginning of September: write paper
+
 

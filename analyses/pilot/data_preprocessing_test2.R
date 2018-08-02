@@ -26,7 +26,13 @@ for (i in 2:12) {
 
 hyp_1 <- t.test(data_ttest$z_score ~ data_ttest$anchor, paired = TRUE)
 
+high <- filter(data_ttest, anchor == 'high')
+mean_zH <- mean(high$z_score)
 
+low <- filter(data_ttest, anchor == 'low')
+mean_zL <- mean(low$z_score)
+
+comp <- mean_zL < mean_zH
 # check for normality
 #diff <- data$mean_zH - data$mean_zL
 #shapiro.test(diff)

@@ -1,18 +1,52 @@
 ---
-title: "Bes Preregister Report ever"
+title: "Preregistration Report - Replication of the anchor effect"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+#Study Information
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+Replication of the anchor effect
 
-```{r}
-plot(cars)
-```
+Inga Kramarek and Sarah Kusch
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+    3. Research Questions 
+        3.1. Please list each research question included in this study.
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+Our first hypothesis is directional and we hypothesize that those participants who receive a low anchor make a significantly lower absolute estimate compared to those who receive a high anchor irrespective of the question's content.
+
+Our second hypothesis is non-directional and says that there is no significant difference in estimates between participants who know about the anchor effect and those who don't.
+
+# Sampling Plan
+
+
+
+# Variables
+
+  1. Manipulated variables
+  
+    The manipulated variable, hereafter "anchor variable", can take the values 'high' or 'low' and indicates whether the question contained a low or a high anchor. Each participant will receive six questions with a low and six with a high anchor. 
+    
+  2. Measured variables
+  
+    We will measure the absolute estimation the participants give for each of the 12 questions. As well as whether the participants know about the anchor effect or not, hereafter "knowledge variable".
+
+  3. Indices
+  
+    We will z-transform all estimates per question to eliminate the varying units. Then we will avarage across all z-transformed estimates per anchor condition and per participant to determine the participant's mean estimate for the low and high anchor condition respectively. This will yield two mean z-scores per participant per condition.
+    
+  
+# Design Plan
+
+
+# Analysis Plan
+
+For the first hypothesis we will use a paired t-test with the outcome (dependent variable) being the z-transformed estimates per participant and per anchor condition. The predictor (independent variable) is the anchor variable.
+
+The second hypothesis will be tested using a linear mixed model with random intercept per participant and per question. The predictors are the anchor variable and additionally the kowledge variable. The outcome (dependent variable) will be the z-transformed estimates per participant and per anchor condition. We are going to analyse the main effect of the knowledge variable.
+
+We will z-transform the given estimates as indicated under "Variables" "3. Indices". We will not do any follow-up analyses.
+
+For our analysis we will use  $\alpha = 0.05$ as an inference criterion. Both hypothesis will be tested one-tailed. 
+
+We will exclude outlier and impossible answers since our main statistical measurement is the mean and sensitive to outiers. 
