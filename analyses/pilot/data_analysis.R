@@ -44,4 +44,7 @@ comp <- mean_zL < mean_zH
 hyp_2 <- afex::mixed(z_score ~ anchor * anchor_knowledge + (1 | submission_id) + (1 | question), data = data_ttest)
 
 
+d <- melt(select(data, submission_id, high$z_score, low$z_score), id="submission_id")
+
+ggplot(d, aes(variable, value)) + geom_boxplot() + xlab("Anchor") + ylab("z-scores") + ggtitle("Title")
 
