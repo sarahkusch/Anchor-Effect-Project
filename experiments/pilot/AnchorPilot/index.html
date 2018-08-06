@@ -126,16 +126,17 @@
 
 			<p class="answer-container"><p>
 				<label for="answer" name="answer">Answer:</label>
-				<input type="number" id="answer"/>
+				<input type="number" id="answer" onkeyup="success()"/>
 				{{# buttonText }}
 				<button id="next">{{ buttonText }}</button>
 				{{/ buttonText }}
 				{{^ buttonText }}
-				<button id="next">Next</button>
+				<button id="next" disabled>Next</button>
 				{{/ buttonText }}
 			</p>
 			</p>
 		</div>
+
 		</script>
 
 		<!-- Begin Experiment view -->
@@ -185,12 +186,12 @@
 
 		<p class="answer-container"><p>
 			<label for="answer" name="answer">Answer:</label>
-			<input type="number" id="answer"/>
+			<input type="number" id="answer" onkeyup="success()"/>
 			{{# buttonText }}
 			<button id="next">{{ buttonText }}</button>
 			{{/ buttonText }}
 			{{^ buttonText }}
-			<button id="next">Next</button>
+			<button id="next" disabled>Next</button>
 			{{/ buttonText }}
 		</p>
 		</p>
