@@ -19,7 +19,26 @@ Our second hypothesis is non-directional and says that there is no significant d
 
 # Sampling Plan
 
-
+  1. Existing data
+     
+    This registration is prior to the creation of the data. We will collect and analyze data only after the submission of our research plan.
+  
+  2. Data collection procedures
+    
+    We do not use any constraints to obtain human-subjects since there are not any constrains for the anchor effect to appear. This experiment is a study project, so we do not have any money available to conduct the experiment. Therefore we will mainly recruit other students via the university network and everyone we can recruit via social networks.
+    
+  3. Sample size
+  
+    We will try to recruit as many people as possible for our experiment, but at least 30 subjects.
+    
+  4. Sample size ratio
+  
+    Time and money are the constraints of the recruitment.
+    
+  5. Stopping rule
+  
+    We will stopp the data collection when we reach our recruiting deadline of to weeks to get as many subjects as possible.
+    
 
 # Variables
 
@@ -38,6 +57,10 @@ Our second hypothesis is non-directional and says that there is no significant d
   
 # Design Plan
 
+  The experiment will be conducted without any blinding. It is a within-subject, cross-sectional design and uses repeated measures.
+  A questionnaire consists of 2 practice trials and 12 main trials. In each trial the subject first has to choose between to  answers to an estimation question. Secondly the subject has to give an exact estimation for the same question.
+  The assignment of high and low anchors to the questions is randomized, but each questionnaire has the same amount of question with a high anchor than with a low anchor.
+  
 
 # Analysis Plan
 
