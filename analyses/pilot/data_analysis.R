@@ -43,8 +43,11 @@ comp <- mean_zL < mean_zH
 # random intercept per participant and per question
 hyp_2 <- afex::mixed(z_score ~ anchor * anchor_knowledge + (1 | submission_id) + (1 | question), data = data_ttest)
 
+# z_score.x ist high
+d <- inner_join(high, low, by ="submission_id")
 
-d <- melt(select(data, submission_id, high$z_score, low$z_score), id="submission_id")
+d <- select(d, z_score.x, z_score.y, submission_id)
+d<- melt(d,id="submission_id")
 
 ggplot(d, aes(variable, value)) + geom_boxplot() + xlab("Anchor") + ylab("z-scores") + ggtitle("Title")
 
