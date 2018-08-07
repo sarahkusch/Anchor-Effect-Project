@@ -15,3 +15,11 @@ function anchor(high, low) {
     question = question_low
   }
 }
+
+function success() {
+  if(document.getElementById("answer").value==="") {
+        document.getElementById('next').disabled = true;
+    } else {
+        document.getElementById('next').disabled = false;
+    }
+}
