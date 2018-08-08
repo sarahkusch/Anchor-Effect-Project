@@ -1,5 +1,5 @@
 var main_trials = [
-	{anchor_question: "Is the length of the river Rhein higher or lower than ",
+	{anchor_question: "Is the length of the river 'Rhein' higher or lower than ",
 	 anchor_option1: "higher",
 	 anchor_option2: "lower",
 	 anchor_high: "1200km?",

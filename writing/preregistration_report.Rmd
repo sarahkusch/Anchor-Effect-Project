@@ -9,9 +9,7 @@ Replication of the anchor effect
 
 Inga Kramarek and Sarah Kusch
 
-    3. Research Questions 
-        3.1. Please list each research question included in this study.
-
+Research question: Does the first information (anchor) create a reference point to compare the further information with?
 
 Our first hypothesis is directional and we assume that those participants who receive a low anchor give a significantly lower absolute estimate than those who receive a high anchor irrespective of the question's content.
 
@@ -60,6 +58,11 @@ Our second hypothesis is non-directional and states that there is no significant
   The experiment will be conducted without any blinding since it is an online questionnaire that the participants will fill out at home. It is a within-subject, cross-sectional design and uses repeated measures.
   The questionnaire consists of 2 practice trials and 12 main trials. In each trial the subject first has to choose between two answer options to an estimation question. Secondly, the subject has to give an exact estimate to the same question.
   The assignment of high and low anchors to the questions is randomized, but each questionnaire has the same amount of question with a high anchor and low anchor.
+  
+  Example:
+  
+  1. Is the length of the river 'Rhein' higher or lower than 200km (low anchor)/1200km (high anchor)?
+  2. Estimate the exact length of the river 'Rhein'
   
 
 # Analysis Plan
