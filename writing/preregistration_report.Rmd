@@ -9,7 +9,7 @@ Replication of the anchor effect
 
 Inga Kramarek and Sarah Kusch
 
-Research question: Does the first information (anchor) create a reference point to compare the further information with?
+We are going to test whether people will be influenced in their estimation to a numerical question by a first piece of information. In our case this is a number (the so called "anchor") given in a first comparative question. We will assess the influence by asking for an absolute estimate after the initial comparative question. The anchor will be introduced as randomly chosen such that the perceived informativeness of it is reduced. Our research question is therefore whether the first piece of information (anchor) creates a reference point to compare the further information with. The second research question is whether knowledge about the anchor effect influences the effect of the anchor.
 
 Our first hypothesis is directional and we assume that those participants who receive a low anchor give a significantly lower absolute estimate than those who receive a high anchor irrespective of the question's content.
 
@@ -69,9 +69,9 @@ Our second hypothesis is non-directional and states that there is no significant
 
 For the first hypothesis we will use a paired t-test with the outcome (dependent variable) being the z-transformed estimates per participant and per anchor condition. The predictor (independent variable) is the anchor variable.
 
-The second hypothesis will be tested using a linear mixed model with random intercept per participant and per question. The predictors are the anchor variable and additionally the kowledge variable. The outcome (dependent variable) will be the z-transformed estimates per participant and per anchor condition. We are going to analyse the main effect of the knowledge variable.
+The second hypothesis will be tested using a linear mixed model with random intercept per participant and per question. The predictors are the anchor variable and additionally the kowledge variable. The outcome (dependent variable) will be the z-transformed estimates per participant and per anchor condition. We are going to analyse the main effect of the knowledge variable. Since we do not control for knowledge about the anchor effect, by now we cannot say whether we will be able to test this hypothesis. For testing we need about the same amount of participants in both groups.
 
-We will z-transform the given estimates as described under "Variables" "3. Indices". We will not do any follow-up analyses.
+We will z-transform the given estimates as described under "Variables" "3. Indices". No other confirmatory analyses are planned.
 
 For our analysis we will use  $\alpha = 0.05$ as an inference criterion. Both hypothesis will be tested one-tailed and the direction of the first hypothesis will be checked by comparing the mean estimates of the high and low anchor condition. 
 
