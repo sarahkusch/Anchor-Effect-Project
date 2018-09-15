@@ -115,9 +115,6 @@ references:
   issued:
     year: 2004
 ---
- Pohl, R. (2004). Cognitive illusions: A handbook on fallacies and biases in thinking, judgement and memory. Hove: Psychology Press
- 
- Mussweiler, Thomas & Englich, Birte & Strack, Fritz. (2004). 10 Anchoring effect. Cognitive Illusions: A Handbook on Fallacies and Biases in Thinking, Judgement and Memory. 
  
 #References
 
