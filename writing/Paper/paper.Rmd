@@ -2,8 +2,8 @@
 title: "Replication of the Anchor Effect"
 author: "Inga Kramarek and Sarah Kusch"
 output: html_notebook
-encoding: UTF-8
 ---
+
 
 #Introduction
 
