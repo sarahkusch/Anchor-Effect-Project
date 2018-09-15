@@ -7,7 +7,7 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 146,8396,22,low,yes,600,,graduated_college,1536322852945,14,female,German,1,Fri Sep 07 2018 08:12:49 GMT-0400 (EDT),1536322369912,8.05055,6
 146,7790,22,low,yes,100,,graduated_college,1536322852945,14,female,German,5,Fri Sep 07 2018 08:12:49 GMT-0400 (EDT),1536322369912,8.05055,7
 146,6942,22,low,yes,200,,graduated_college,1536322852945,14,female,German,6,Fri Sep 07 2018 08:12:49 GMT-0400 (EDT),1536322369912,8.05055,8
-146,7717,22,high,yes,100.000,,graduated_college,1536322852945,14,female,German,9,Fri Sep 07 2018 08:12:49 GMT-0400 (EDT),1536322369912,8.05055,9
+146,7717,22,high,yes,100000,,graduated_college,1536322852945,14,female,German,9,Fri Sep 07 2018 08:12:49 GMT-0400 (EDT),1536322369912,8.05055,9
 146,3981,22,high,yes,89,,graduated_college,1536322852945,14,female,German,11,Fri Sep 07 2018 08:12:49 GMT-0400 (EDT),1536322369912,8.05055,10
 146,8574,22,high,yes,5000,,graduated_college,1536322852945,14,female,German,8,Fri Sep 07 2018 08:12:49 GMT-0400 (EDT),1536322369912,8.05055,11
 146,6603,22,high,yes,140,,graduated_college,1536322852945,14,female,German,10,Fri Sep 07 2018 08:12:49 GMT-0400 (EDT),1536322369912,8.05055,12
@@ -40,7 +40,7 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 143,4037,21,high,no,79,,graduated_college,1536143343900,14,female,"German, English",11,Wed Sep 05 2018 12:26:17 GMT+0200 (CEST),1536143177941,2.7659833333333332,3
 143,3545,21,high,no,11000,,graduated_college,1536143343900,14,female,"German, English",5,Wed Sep 05 2018 12:26:17 GMT+0200 (CEST),1536143177941,2.7659833333333332,4
 143,2686,21,low,no,256,,graduated_college,1536143343900,14,female,"German, English",8,Wed Sep 05 2018 12:26:17 GMT+0200 (CEST),1536143177941,2.7659833333333332,5
-143,7424,21,low,no,250.000,,graduated_college,1536143343900,14,female,"German, English",9,Wed Sep 05 2018 12:26:17 GMT+0200 (CEST),1536143177941,2.7659833333333332,6
+143,7424,21,low,no,250000,,graduated_college,1536143343900,14,female,"German, English",9,Wed Sep 05 2018 12:26:17 GMT+0200 (CEST),1536143177941,2.7659833333333332,6
 143,4366,21,high,no,150,,graduated_college,1536143343900,14,female,"German, English",2,Wed Sep 05 2018 12:26:17 GMT+0200 (CEST),1536143177941,2.7659833333333332,7
 143,2971,21,high,no,700,,graduated_college,1536143343900,14,female,"German, English",6,Wed Sep 05 2018 12:26:17 GMT+0200 (CEST),1536143177941,2.7659833333333332,8
 143,4341,21,low,no,1450,,graduated_college,1536143343900,14,female,"German, English",12,Wed Sep 05 2018 12:26:17 GMT+0200 (CEST),1536143177941,2.7659833333333332,9
@@ -83,18 +83,18 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 140,3613,23,low,no,30,,higher_degree,1536072698671,14,female,German,2,Tue Sep 04 2018 16:44:36 GMT+0200 (CEST),1536072276311,7.039333333333333,10
 140,5431,23,low,no,1900,,higher_degree,1536072698671,14,female,German,4,Tue Sep 04 2018 16:44:36 GMT+0200 (CEST),1536072276311,7.039333333333333,11
 140,2618,23,low,no,15,,higher_degree,1536072698671,14,female,German,3,Tue Sep 04 2018 16:44:36 GMT+0200 (CEST),1536072276311,7.039333333333333,12
-139,23390,,high,,2200,,,1536070050488,14,,,9,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,1
-139,43015,,low,,50,,,1536070050488,14,,,3,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,2
-139,4711,,low,,400,,,1536070050488,14,,,6,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,3
-139,4103,,high,,200,,,1536070050488,14,,,10,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,4
-139,6501,,high,,900,,,1536070050488,14,,,1,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,5
-139,4357,,high,,200,,,1536070050488,14,,,8,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,6
-139,3639,,low,,88,,,1536070050488,14,,,7,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,7
-139,6992,,high,,100,,,1536070050488,14,,,2,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,8
-139,5008,,low,,1400,,,1536070050488,14,,,12,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,9
-139,7898,,low,,1910,,,1536070050488,14,,,4,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,10
-139,3573,,low,,70,,,1536070050488,14,,,11,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,11
-139,4610,,high,,800,,,1536070050488,14,,,5,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6.529,12
+139,23390,,high,,2200,,,1536070050488,14,,,9,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,1
+139,43015,,low,,50,,,1536070050488,14,,,3,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,2
+139,4711,,low,,400,,,1536070050488,14,,,6,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,3
+139,4103,,high,,200,,,1536070050488,14,,,10,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,4
+139,6501,,high,,900,,,1536070050488,14,,,1,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,5
+139,4357,,high,,200,,,1536070050488,14,,,8,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,6
+139,3639,,low,,88,,,1536070050488,14,,,7,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,7
+139,6992,,high,,100,,,1536070050488,14,,,2,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,8
+139,5008,,low,,1400,,,1536070050488,14,,,12,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,9
+139,7898,,low,,1910,,,1536070050488,14,,,4,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,10
+139,3573,,low,,70,,,1536070050488,14,,,11,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,11
+139,4610,,high,,800,,,1536070050488,14,,,5,Tue Sep 04 2018 16:00:58 GMT+0200 (CEST),1536069658748,6529,12
 138,7832,26,high,no,2000,,graduated_high_school,1536069681763,14,male,Turkish German,1,Tue Sep 04 2018 15:55:49 GMT+0200 (CEST),1536069349614,5.535816666666666,1
 138,5548,26,low,no,100000,,graduated_high_school,1536069681763,14,male,Turkish German,9,Tue Sep 04 2018 15:55:49 GMT+0200 (CEST),1536069349614,5.535816666666666,2
 138,4261,26,low,no,200,,graduated_high_school,1536069681763,14,male,Turkish German,6,Tue Sep 04 2018 15:55:49 GMT+0200 (CEST),1536069349614,5.535816666666666,3
@@ -182,7 +182,7 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 131,4867,17,high,no,5000,,graduated_high_school,1535661281102,14,male,Greek Arabic German ,8,Thu Aug 30 2018 22:30:23 GMT+0200 (CEST),1535661023826,4.287933333333333,1
 131,3526,17,low,no,500,,graduated_high_school,1535661281102,14,male,Greek Arabic German ,6,Thu Aug 30 2018 22:30:23 GMT+0200 (CEST),1535661023826,4.287933333333333,2
 131,7646,17,high,no,5000,,graduated_high_school,1535661281102,14,male,Greek Arabic German ,1,Thu Aug 30 2018 22:30:23 GMT+0200 (CEST),1535661023826,4.287933333333333,3
-131,7920,17,low,no,300.000,,graduated_high_school,1535661281102,14,male,Greek Arabic German ,9,Thu Aug 30 2018 22:30:23 GMT+0200 (CEST),1535661023826,4.287933333333333,4
+131,7920,17,low,no,300000,,graduated_high_school,1535661281102,14,male,Greek Arabic German ,9,Thu Aug 30 2018 22:30:23 GMT+0200 (CEST),1535661023826,4.287933333333333,4
 131,5727,17,low,no,150,,graduated_high_school,1535661281102,14,male,Greek Arabic German ,5,Thu Aug 30 2018 22:30:23 GMT+0200 (CEST),1535661023826,4.287933333333333,5
 131,6302,17,low,no,92,,graduated_high_school,1535661281102,14,male,Greek Arabic German ,3,Thu Aug 30 2018 22:30:23 GMT+0200 (CEST),1535661023826,4.287933333333333,6
 131,14077,17,high,no,1860,,graduated_high_school,1535661281102,14,male,Greek Arabic German ,4,Thu Aug 30 2018 22:30:23 GMT+0200 (CEST),1535661023826,4.287933333333333,7
@@ -239,18 +239,18 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 127,3937,23,high,yes,1250,,higher_degree,1535658955722,14,male,German,1,Thu Aug 30 2018 22:49:14 GMT+0300 (EEST),1535658554878,6.680733333333333,10
 127,3051,23,low,yes,25,,higher_degree,1535658955722,14,male,German,10,Thu Aug 30 2018 22:49:14 GMT+0300 (EEST),1535658554878,6.680733333333333,11
 127,4138,23,high,yes,4500,,higher_degree,1535658955722,14,male,German,8,Thu Aug 30 2018 22:49:14 GMT+0300 (EEST),1535658554878,6.680733333333333,12
-126,20551,20,low,yes,125,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",2,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,1
-126,11323,20,high,yes,001,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",4,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,2
-126,13544,20,high,yes,300,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",11,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,3
-126,6920,20,low,yes,1,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",5,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,4
-126,4096,20,low,yes,700,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",8,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,5
-126,3682,20,low,yes,250,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",1,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,6
-126,3630,20,low,yes,50,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",10,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,7
-126,10457,20,high,yes,299.999,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",9,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,8
-126,4147,20,low,yes,27,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",3,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,9
-126,4021,20,high,yes,780,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",6,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,10
-126,3113,20,high,yes,86,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",7,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,11
-126,6635,20,high,yes,1699,Vegetarians eat only 25 kg of meat per year,higher_degree,1535641470413,14,male,"German, English, C++",12,Thu Aug 30 2018 16:58:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535641136846,5.55945,12
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
 125,14063,99,low,no,1300,,higher_degree,1535639099519,14,other,navajo,1,Thu Aug 30 2018 16:19:24 GMT+0200 (Mitteleuropäische Sommerzeit),1535638764247,5.587866666666667,1
 125,2520,99,high,no,60,,higher_degree,1535639099519,14,other,navajo,2,Thu Aug 30 2018 16:19:24 GMT+0200 (Mitteleuropäische Sommerzeit),1535638764247,5.587866666666667,2
 125,18960,99,high,no,110,,higher_degree,1535639099519,14,other,navajo,7,Thu Aug 30 2018 16:19:24 GMT+0200 (Mitteleuropäische Sommerzeit),1535638764247,5.587866666666667,3
@@ -275,18 +275,18 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 124,5016,22,high,no,118,,graduated_high_school,1535635659283,14,male,,7,Thu Aug 30 2018 15:23:09 GMT+0200 (CEST),1535635389151,4.5022,10
 124,4034,22,low,no,3000,,graduated_high_school,1535635659283,14,male,,8,Thu Aug 30 2018 15:23:09 GMT+0200 (CEST),1535635389151,4.5022,11
 124,4700,22,high,no,15000,,graduated_high_school,1535635659283,14,male,,5,Thu Aug 30 2018 15:23:09 GMT+0200 (CEST),1535635389151,4.5022,12
-123,12978,19,high,no,5000,,graduated_high_school,1535632893863,14,female,,2,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,1
-123,3040,19,low,no,20,,graduated_high_school,1535632893863,14,female,,8,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,2
-123,14110,19,high,no,124,,graduated_high_school,1535632893863,14,female,,3,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,3
-123,5292,19,high,no,1910,,graduated_high_school,1535632893863,14,female,,4,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,4
-123,4502,19,low,no,45,,graduated_high_school,1535632893863,14,female,,11,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,5
-123,5645,19,low,no,50,,graduated_high_school,1535632893863,14,female,,10,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,6
-123,4750,19,low,no,20000,,graduated_high_school,1535632893863,14,female,,9,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,7
-123,5774,19,low,no,300,,graduated_high_school,1535632893863,14,female,,6,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,8
-123,4572,19,high,no,15000,,graduated_high_school,1535632893863,14,female,,5,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,9
-123,7534,19,high,no,45,,graduated_high_school,1535632893863,14,female,,7,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,10
-123,8502,19,low,no,150,,graduated_high_school,1535632893863,14,female,,1,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,11
-123,5234,19,high,no,17000,,graduated_high_school,1535632893863,14,female,,12,Thu Aug 30 2018 14:36:11 GMT+0200 (CEST),1535632571532,5.372183333333333,12
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
 122,21985,,low,,1420,,,1535632567836,14,,,12,Thu Aug 30 2018 14:31:11 GMT+0200 (CEST),1535632271470,4.939433333333334,1
 122,6471,,low,,30,,,1535632567836,14,,,8,Thu Aug 30 2018 14:31:11 GMT+0200 (CEST),1535632271470,4.939433333333334,2
 122,4211,,high,,100,,,1535632567836,14,,,10,Thu Aug 30 2018 14:31:11 GMT+0200 (CEST),1535632271470,4.939433333333334,3
@@ -334,7 +334,7 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 119,9915,20,low,no,1895,,graduated_high_school,1535628631191,14,female,,4,Thu Aug 30 2018 13:20:20 GMT+0200 (Mitteleuropäische Sommerzeit),1535628020388,10.18005,9
 119,4253,20,low,no,18,,graduated_high_school,1535628631191,14,female,,10,Thu Aug 30 2018 13:20:20 GMT+0200 (Mitteleuropäische Sommerzeit),1535628020388,10.18005,10
 119,3492,20,high,no,800,,graduated_high_school,1535628631191,14,female,,1,Thu Aug 30 2018 13:20:20 GMT+0200 (Mitteleuropäische Sommerzeit),1535628020388,10.18005,11
-119,7407,20,high,no,900.000,,graduated_high_school,1535628631191,14,female,,9,Thu Aug 30 2018 13:20:20 GMT+0200 (Mitteleuropäische Sommerzeit),1535628020388,10.18005,12
+119,7407,20,high,no,900000,,graduated_high_school,1535628631191,14,female,,9,Thu Aug 30 2018 13:20:20 GMT+0200 (Mitteleuropäische Sommerzeit),1535628020388,10.18005,12
 118,10782,22,low,no,100000,,graduated_high_school,1535626185114,14,female,German,9,Thu Aug 30 2018 12:27:08 GMT+0200 (CEST),1535624828167,22.615783333333333,1
 118,3940,22,high,no,1300,,graduated_high_school,1535626185114,14,female,German,1,Thu Aug 30 2018 12:27:08 GMT+0200 (CEST),1535624828167,22.615783333333333,2
 118,32161,22,high,no,78,,graduated_high_school,1535626185114,14,female,German,11,Thu Aug 30 2018 12:27:08 GMT+0200 (CEST),1535624828167,22.615783333333333,3
@@ -359,18 +359,18 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 117,6224,25,high,no,45,,higher_degree,1535559509688,14,female,German,7,Wed Aug 29 2018 18:14:50 GMT+0200 (Mitteleuropäische Sommerzeit),1535559290997,3.64485,10
 117,15313,25,high,no,100,,higher_degree,1535559509688,14,female,German,2,Wed Aug 29 2018 18:14:50 GMT+0200 (Mitteleuropäische Sommerzeit),1535559290997,3.64485,11
 117,4986,25,low,no,1830,,higher_degree,1535559509688,14,female,German,4,Wed Aug 29 2018 18:14:50 GMT+0200 (Mitteleuropäische Sommerzeit),1535559290997,3.64485,12
-116,16868,22,low,yes,1000,,higher_degree,1535553669927,14,female,German,12,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,1
-116,6381,22,high,yes,1945,,higher_degree,1535553669927,14,female,German,4,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,2
-116,16703,22,low,yes,10000,,higher_degree,1535553669927,14,female,German,5,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,3
-116,4412,22,high,yes,300,,higher_degree,1535553669927,14,female,German,6,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,4
-116,5039,22,low,yes,2000000,,higher_degree,1535553669927,14,female,German,8,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,5
-116,7270,22,low,yes,100000000000,,higher_degree,1535553669927,14,female,German,9,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,6
-116,7291,22,low,yes,70,,higher_degree,1535553669927,14,female,German,2,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,7
-116,3088,22,high,yes,100,,higher_degree,1535553669927,14,female,German,10,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,8
-116,12880,22,high,yes,10000,,higher_degree,1535553669927,14,female,German,1,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,9
-116,4099,22,high,yes,30,,higher_degree,1535553669927,14,female,German,3,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,10
-116,4160,22,low,yes,111,,higher_degree,1535553669927,14,female,German,11,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,11
-116,3733,22,high,yes,60,,higher_degree,1535553669927,14,female,German,7,Wed Aug 29 2018 16:36:24 GMT+0200 (CEST),1535553384867,4.751,12
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
 115,3842,21,low,yes,54,,graduated_high_school,1535546844598,14,male,german,10,Wed Aug 29 2018 14:43:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535546636641,3.46595,1
 115,4094,21,high,yes,1805,,graduated_high_school,1535546844598,14,male,german,12,Wed Aug 29 2018 14:43:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535546636641,3.46595,2
 115,5873,21,high,yes,2000,,graduated_high_school,1535546844598,14,male,german,8,Wed Aug 29 2018 14:43:56 GMT+0200 (Mitteleuropäische Sommerzeit),1535546636641,3.46595,3
@@ -395,7 +395,7 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 114,1480,26,low,no,88,,graduated_college,1535544963712,14,male,German,7,Wed Aug 29 2018 14:13:00 GMT+0200 (Mitteleuropäische Sommerzeit),1535544780118,3.0599,10
 114,3575,26,low,no,500,,graduated_college,1535544963712,14,male,German,6,Wed Aug 29 2018 14:13:00 GMT+0200 (Mitteleuropäische Sommerzeit),1535544780118,3.0599,11
 114,2326,26,low,no,28,,graduated_college,1535544963712,14,male,German,3,Wed Aug 29 2018 14:13:00 GMT+0200 (Mitteleuropäische Sommerzeit),1535544780118,3.0599,12
-113,6659,22,low,yes,30.000,,graduated_high_school,1535542741411,14,female,german,9,Wed Aug 29 2018 13:32:27 GMT+0200 (Mitteleuropäische Sommerzeit),1535542347303,6.568466666666667,1
+113,6659,22,low,yes,30000,,graduated_high_school,1535542741411,14,female,german,9,Wed Aug 29 2018 13:32:27 GMT+0200 (Mitteleuropäische Sommerzeit),1535542347303,6.568466666666667,1
 113,3864,22,low,yes,22,,graduated_high_school,1535542741411,14,female,german,10,Wed Aug 29 2018 13:32:27 GMT+0200 (Mitteleuropäische Sommerzeit),1535542347303,6.568466666666667,2
 113,10960,22,high,yes,500,,graduated_high_school,1535542741411,14,female,german,6,Wed Aug 29 2018 13:32:27 GMT+0200 (Mitteleuropäische Sommerzeit),1535542347303,6.568466666666667,3
 113,5566,22,high,yes,60,,graduated_high_school,1535542741411,14,female,german,2,Wed Aug 29 2018 13:32:27 GMT+0200 (Mitteleuropäische Sommerzeit),1535542347303,6.568466666666667,4
@@ -455,15 +455,15 @@ submission_id,RT,age,anchor,anchor_knowledge,answer,comments,education,endTime,e
 109,16310,22,high,no,50,,graduated_high_school,1535537681817,14,female,german,7,Wed Aug 29 2018 12:06:40 GMT+0200 (Mitteleuropäische Sommerzeit),1535537200622,8.019916666666667,10
 109,10588,22,low,no,900,,graduated_high_school,1535537681817,14,female,german,1,Wed Aug 29 2018 12:06:40 GMT+0200 (Mitteleuropäische Sommerzeit),1535537200622,8.019916666666667,11
 109,9302,22,low,no,20,,graduated_high_school,1535537681817,14,female,german,3,Wed Aug 29 2018 12:06:40 GMT+0200 (Mitteleuropäische Sommerzeit),1535537200622,8.019916666666667,12
-108,4742,23,high,yes,145,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,10,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,1
-108,6029,23,high,yes,1625,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,12,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,2
-108,8547,23,high,yes,2100,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,1,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,3
-108,3942,23,high,yes,2500,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,8,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,4
-108,8988,23,low,yes,67,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,11,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,5
-108,5339,23,low,yes,40,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,2,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,6
-108,3319,23,high,yes,196,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,3,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,7
-108,5895,23,low,yes,300,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,6,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,8
-108,22923,23,low,yes,12000,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,5,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,9
-108,6699,23,low,yes,80,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,7,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,10
-108,4593,23,low,yes,10000,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,9,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,11
-108,4517,23,high,yes,1908,"Hey Süße :*\nIch will auch die Antworten sehen!",graduated_college,1535537038254,14,male,German,4,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,12
+108,4742,23,high,yes,145,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,10,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,1
+108,6029,23,high,yes,1625,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,12,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,2
+108,8547,23,high,yes,2100,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,1,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,3
+108,3942,23,high,yes,2500,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,8,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,4
+108,8988,23,low,yes,67,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,11,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,5
+108,5339,23,low,yes,40,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,2,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,6
+108,3319,23,high,yes,196,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,3,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,7
+108,5895,23,low,yes,300,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,6,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,8
+108,22923,23,low,yes,12000,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,5,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,9
+108,6699,23,low,yes,80,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,7,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,10
+108,4593,23,low,yes,10000,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,9,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,11
+108,4517,23,high,yes,1908,Hey Süße :*\nIch will auch die Antworten sehen!,graduated_college,1535537038254,14,male,German,4,Wed Aug 29 2018 11:58:45 GMT+0200 (Mitteleuropäische Sommerzeit),1535536725690,5.2094,12
