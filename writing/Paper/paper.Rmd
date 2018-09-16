@@ -4,23 +4,24 @@ author: "Inga Kramarek and Sarah Kusch"
 output: html_notebook
 ---
 
+\pagenumbering{arabic}
 
 #Introduction
 
-The anchor effect is one type of a cognitive bias and occurs in various areas where judgement or estimation of a situation is needed and an initial piece of information is given (e.g. a number). The effect predicts that when dealing with an estimation task, people tend to be guided by a previously given anchor (in this study a number) mostly without being aware of it [@tversky1974]. The theory is that people take the anchor as a reference and adjust from this number in the supposedley correct direction but not sufficiently and thereby being influenced by the height of a given number [@tversky1974]. This effect persists even if the anchor is impossible [@strack1997] or the questions concerns the persons's area of expertise [@englich2001]. 
-This shows that the anchor effect is a rather robust psychological effect. In this paper we replicate the influence of the anchor effect in the context of an estimation task and, secondly, that people who know about the anchor effect are still influenced by an anchor. The first hypothesis states that those participants who receive a low anchor give a significantly lower absolute estimate than those who receive a high anchor irrespective of the question's content. The second hypothesis says that there is no significant difference in estimates between participants who know the anchor effect and those who do not.
+The anchor effect is a cognitive bias that occurs in various areas where judgement or estimation of a situation is needed and an initial piece of information is given (e.g. a number). The effect predicts that when dealing with an estimation task, people tend to be guided in their judgement by a previously given anchor (in this study a number) mostly without being aware of it [@tversky1974]. The theory is that people take the anchor as a reference point and adjust from this number in the supposedley correct direction but not sufficiently and thereby being influenced by the height of the given number [@tversky1974]. This effect persists even if the anchor is impossible [@strack1997] or the questions concerns the person's area of expertise [@englich2001]. 
+This shows that the anchor effect is a rather robust psychological effect. In this paper we replicated the influence of the anchor effect in the context of an estimation task and, secondly, that people who know about the anchor effect are still influenced by an anchor. The first hypothesis states that those participants who receive a low anchor give a significantly lower absolute estimate than those who receive a high anchor irrespective of the question's content. The second hypothesis says that there is no significant difference in estimates between participants who know the anchor effect and those who do not.
 
 #Methods
 
 We recruited 39 participants in total, mainly students from the University of Osnabrück. Every participant received a link to an online browser-based questionnaire, thus subjects filled out the questionnaire at home on their own devices. 
-The questionnaire consisted of fourteen general knowledge questions consisting of two parts: a comparison and a subsequent estimation part. The comparison part was used to introduce a number as the anchor and the participants were asked whether they think that the answer to a given question is higher or lower than the number. In the second part they had to give an absolute estimation.
+The questionnaire consisted of fourteen general knowledge questions consisting of two parts: a comparison and a subsequent estimation part. The comparison part was used to introduce either a high or a low number as the anchor and the participants were asked whether they think that the answer to a given question is higher or lower than the number. In the second part they had to give an absolute estimation.
 Two of the questions where given as practice trials in the same order for all participants and twelve as main trials in a randomized order. All participants received the same questions but with a randomly assigned high or low initial number (anchor) in the comparison part. The anchor was introduced as randomly chosen such that the perceived informativeness of it was reduced. Otherwise the anchor would seem like a hint to the correct answer. We fixed the number of high and low anchors to six each, such that the same amount of the two anchor conditions for every participant resulted. The questions' contents were adapted from Jackowitz and Kahneman [-@jacowitz1995] and Mussweiler et al [-@mussweiler2004] and covered a wide range of general knowledge topics.
 
 #Results
 
 From the 39 participants we excluded two due to several impossible answers the subjects gave. Of the remaining 37 participants, `r female_abs` were female and `r male_abs` male, the remaining subjects didn't report a sex. The median age was `r median_age` years with an age range of `r range_age` years. 
-All participants had an high school degree or higher, with `r college_abs` having finished college and `r higher_degree_abs` having a higher degree. 
-A paired t-test for testing the first hypothesis yielded a significant result, t(`r hyp_1[["parameter"]]`) = `r round(hyp_1[["statistic"]],2)`, p < 0.01. The mean z-transformed estimate given in the low anchor condition is smaller than in the high anchor condition. This means those participats who received a low anchor in the comparative question gave a significantly lower answer in the subsequent estimation question. Even so the participants thought that the given anchor was randomly chosen, thus bearing no conventional meaning, the height of the anchor influenced their judgement.
+All participants had a high school degree or higher, with `r college_abs` having finished college and `r higher_degree_abs` having a higher degree. 
+A paired t-test for testing the first hypothesis yielded a significant result, t(`r hyp_1[["parameter"]]`) = `r round(hyp_1[["statistic"]],2)`, p < 0.01. The mean z-transformed estimate given in the low anchor condition is smaller than in the high anchor condition (see figure below). This means those participats who received a low anchor in the comparative question gave a significantly lower answer in the subsequent estimation question. Even so the participants thought that the given anchor was randomly chosen, thus bearing no conventional meaning, the height of the anchor influenced their judgement.
 
 ```{r echo=FALSE, fig.height=3, fig.width=4}
 show(plot_anchor)
@@ -28,17 +29,17 @@ show(plot_anchor)
 
 
 
-We tested the second hypothesis using a linear mixed model with random intercept per participant and per question. `r know_yes_abs` participants knew about the anchor effect and `r know_no_abs` did not thus there was nearly balanced group distribution. The analysis yielded no significant main effect of the independent knowledge variable, F(`r hyp_2[["anova_table"]][["num Df"]][2]`,`r hyp_2[["anova_table"]][["den Df"]][2]`) = `r round(hyp_2[["anova_table"]][["F"]][2],2)`, p = `r round(hyp_2[["anova_table"]][["Pr(>F)"]][2],2)`, ns. 
+We tested the second hypothesis using a linear mixed model with random intercept per participant and per question. `r know_yes_abs` participants knew about the anchor effect and `r know_no_abs` did not. Thus there was a nearly balanced group distribution. The analysis yielded no significant main effect of the independent knowledge variable, F(`r hyp_2[["anova_table"]][["num Df"]][2]`,`r hyp_2[["anova_table"]][["den Df"]][2]`) = `r round(hyp_2[["anova_table"]][["F"]][2],2)`, p = `r round(hyp_2[["anova_table"]][["Pr(>F)"]][2],2)`, ns. 
 This shows that even those participants who knew about the anchor effect were similarly influence by the anchor as those who did not. 
 
 
 #Discussion
-This study replicated the findings how an anchor can biase the answers to an estimation task [see @tversky1974]. It showed that presenting an initial high number yields a significantly higher estimation compared to an estimation followed by an initial low number. Furthermore, knowledge about this cognitive bias seems not to prevent from being influenced by it. Since there was no difference in estimations between the two groups of participants who knew the effect and those who did not.
+This study replicated the findings how an anchor can bias answers to an estimation task [see @tversky1974]. It showed that presenting an initial high number yields a significantly higher estimation compared to an estimation followed by an initial low number. Furthermore, knowledge about this cognitive bias seems not to prevent from being influenced by it. Since there was no difference in estimations between the two groups of participants who knew the effect and those who did not.
 Those findings are especially important in negotiations, legal judgements and finances where this cognitive biases can have a major impact. Especially since other reaseach has shown that experts are as prone to this bias as laypeople even in their domain of expertise [@englich2001].
-Limitations of this study include the problems associated with online studies in general. For example, we could not properly control for whether the participants correctly understood the task or did not look up the questions on the internet. Another limitation was that the sample consisted mostly of students within a similar age range.
+Limitations of this study include the problems associated with online studies in general. For example, we could not properly control for whether the participants correctly understood the task or did not look up the questions on the internet. Another limitation was that the sample consisted mostly of students within a similar age range and a relatively high level of education.
 
 #Conclusion
-
+The anchor effect is a congitive bias that can affect political and legal decision-making or negotiations as well as our daily life. Thus studying this effect is important in order to understand this phnomenon and possibly develop, in further research, stretagies to mitigate this effect. In this study we could replicate the effect an anchor has on an estimation task and that this effect presists even if one has knowledge about this influence.
 
 
 
